@@ -7,8 +7,8 @@ if (interactive()) {
             `Authors@R` = paste0(
                 'person("Riley", "Roach", ',
                 'email = "reachroach25@icloud.com", ',
-                'role = c("aut", "cre"), ',
-                'comment = c(ORCID = "YOUR-ORCID-ID"))'
+                'role = c("aut", "cre"), '
+                #'comment = c(ORCID = "YOUR-ORCID-ID"))'
             )
             #License = "MIT + file LICENSE",
             #Version = "0.0.0.9000"
@@ -16,3 +16,4 @@ if (interactive()) {
         usethis.protocol  = "https"
     )
 }
+source("renv/activate.R")
