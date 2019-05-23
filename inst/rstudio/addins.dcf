@@ -2,3 +2,8 @@ Name: Insert %.>%
 Description: Inserts %.>% at the cursor position.
 Binding: insert_seplyr_pipe
 Interactive: false
+
+Name: Lint Using lintr::lint()
+Description: Lints the focused editor.
+Binding: lint_doc
+Interactive: false

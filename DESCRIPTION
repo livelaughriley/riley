@@ -1,12 +1,16 @@
 Package: riley
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Title: Adds Some Extra Functionality to RStudio by Extending the Key-bindings
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Riley",
+           family = "Roach",
+           role = c("aut", "cre"),
+           email = "reachroach25@icloud.com")
+Description: This adds in optional key-bindings, available through Options > Code > Modify Keyboard Shortcuts.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
+Depends: 
+    lintr,
+    rstudioapi
