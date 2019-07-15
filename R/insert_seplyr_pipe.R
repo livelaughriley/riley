@@ -8,14 +8,12 @@
 #' @examples
 #' insert_seplyr_pipe <- function() {
 #'     rstudioapi::insertText(
-#'         location = rstudioapi::document_position(0, 0),
 #'         text = ' %.>% '
 #'     )
 #' }
 #' @export
 insert_seplyr_pipe <- function() {
     rstudioapi::insertText(
-        location = rstudioapi::document_position(0, 0),
         text = ' %.>% '
     )
 }
